@@ -1,0 +1,29 @@
+{
+  "name": "lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec **/*.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.2.1",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "crypto-js": "^4.0.0",
+    "cypress": "^7.3.0",
+    "cypress-cucumber-preprocessor": "^4.1.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-teamcity-reporter": "^3.0.0",
+    "mocha": "^8.4.0",
+    "mochawesome": "^6.2.2",
+    "mochawesome-merge": "^4.2.0",
+    "mochawesome-report-generator": "^5.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
